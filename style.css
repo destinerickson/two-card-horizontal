@@ -7,59 +7,71 @@
 
 
 body {
-    background-color: gray;
+    background-color: rgb(228, 228, 228);
     background-image: url('assets/background.png');
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 /* the main card container */
 
 .card{
-  width: 441px;
-  height: 254px;
+  width: 1053px;
+  height: 589px;
   margin: 80px auto;
-  overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:rgb(255, 255, 255);
   border-radius: 30px;
 }
 
 h1{
-  margin-bottom: 0px;
-  font-family: 'Kumbh Sans', sans-serif;
+  margin-bottom: px;
+  font-family: 'inter', sans-serif;
   font-weight: 600;
-  text-align: center;
-  font-size: 45px;
-  position: relative; top: 40px;
-  color: #27a59c;
+  text-align: left;
+  font-size: 25px;
+  position: relative; top: 90px;
+  margin-left: 120px;
+  color: #000000;
   
 }
 
 h2{
   margin-top: 0px;
   padding-top: 0px;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'inter', sans-serif;
   font-weight: 200;
-  text-align: center;
-  position: relative; 
-  top: 40px;
-  color: #027691;
+  font-size: 20px;
+  text-align: left;
+  position: relative;top: 100px;
+  margin-left: 120px;
+  color: #00c8cb;
 } 
 
 h3{
   margin-top: 0px;
   padding-top: 0px;
-  font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 400;
-  text-align: center;
-  position: relative; 
-  top: 100px;
-}
-/* How links are styled on page load and also after a link has been visited */
-a:link, a:visited {
-  color: #0b8577;
+  font-family: 'inter', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  text-align: left;
+  margin-left: 120px;
+  position: relative; top: 250px;}
+  
+  h4{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    position: relative; 
+    margin-left: 120px; 
+    top: 245px;
+    color: #000000;
+  } 
+  :link, a:visited {
+  color: #000000;
   padding: 0px 0px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 /* how a link is styled when you hover over it */
@@ -76,16 +88,42 @@ a:hover {
   
   h1{
     top: 22px;
-    font-size: 37px;
+    font-size: 22px;
   }
   
   h2{
-    font-size: 23px;
+    font-size: 15px;
     top: 20px;
   } 
   
   h3{
-    font-size:17px;
-    top: 60px;
+    font-size:11px;
+    top: px;
   }
+}
+
+  .icon-bar {
+
+    width: 90px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+    position: relative; 
+    margin-left: 50px; 
+    top: 1220px;
+  }
+  
+  .icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #04AA6D; /* Add an active/current color */
   }
