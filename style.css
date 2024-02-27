@@ -14,6 +14,7 @@ body {
 /* the main card container */
 
 .card{
+  background-image:url(assets/cardbackround-02.png);
   width: 1053px;
   height: 589px;
   margin: 80px auto;
@@ -27,9 +28,9 @@ h1{
   font-family: 'inter', sans-serif;
   font-weight: 600;
   text-align: left;
-  font-size: 25px;
-  position: relative; top: 90px;
-  margin-left: 120px;
+  font-size: 40px;
+  position: relative; top: 140px;
+  margin-left: 370px;
   color: #000000;
   
 }
@@ -41,8 +42,8 @@ h2{
   font-weight: 200;
   font-size: 20px;
   text-align: left;
-  position: relative;top: 100px;
-  margin-left: 120px;
+  position: relative;top: 150px;
+  margin-left: 370px;
   color: #00c8cb;
 } 
 
@@ -51,9 +52,9 @@ h3{
   padding-top: 0px;
   font-family: 'inter', sans-serif;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 20px;
   text-align: left;
-  margin-left: 120px;
+  margin-left: 220px;
   position: relative; top: 250px;}
   
   h4{
@@ -61,10 +62,10 @@ h3{
     padding-top: 0px;
     font-family: 'inter', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 26px;
     text-align: left;
     position: relative; 
-    margin-left: 120px; 
+    margin-left: 220px; 
     top: 245px;
     color: #000000;
   } 
@@ -107,8 +108,8 @@ a:hover {
     width: 90px; /* Set a specific width */
     background-color: #555; /* Dark-grey background */
     position: relative; 
-    margin-left: 50px; 
-    top: 1220px;
+    margin-left:375px; 
+    top: 550px;
   }
   
   .icon-bar a {
@@ -125,5 +126,5 @@ a:hover {
   }
   
   .active {
-    background-color: #04AA6D; /* Add an active/current color */
+    background-color: #000000; /* Add an active/current color */
   }
